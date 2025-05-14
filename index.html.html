@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefly - Ingredient Input</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5eac1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3a6e3a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+        h1 {
+            color: #3a6e3a;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #ffa500;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc8400;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Chefly</h1>
+        <p>Your AI grandma is here to cook with you!</p>
+    </header>
+    <main>
+        <h1>What ingredients do you have?</h1>
+        <input type="text" placeholder="e.g., tomato, chicken, rice..." id="ingredientsInput">
+        <button onclick="alert('We’ll cook something delicious with those!')">Submit</button>
+    </main>
+</body>
+</html>
